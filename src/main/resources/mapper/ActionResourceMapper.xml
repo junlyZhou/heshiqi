@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hilanjing.user.dao.ActionResourceMapper">
+  <resultMap id="BaseResultMap" type="com.hilanjing.user.model.ActionResource">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="resource_name" jdbcType="VARCHAR" property="resourceName" />
+    <result column="parent_id" jdbcType="INTEGER" property="parentId" />
+    <result column="action" jdbcType="VARCHAR" property="action" />
+    <result column="node_type" jdbcType="VARCHAR" property="nodeType" />
+    <result column="resource_type" jdbcType="VARCHAR" property="resourceType" />
+    <result column="method" jdbcType="VARCHAR" property="method" />
+    <result column="resource_desc" jdbcType="VARCHAR" property="resourceDesc" />
+    <result column="status" jdbcType="CHAR" property="status" />
+    <result column="create_time" jdbcType="INTEGER" property="createTime" />
+  </resultMap>
+</mapper>
